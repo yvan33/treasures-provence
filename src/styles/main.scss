@@ -13,7 +13,7 @@ body {
     #logos-container {
         position: absolute;
         right: 2%;
-        bottom: 2%;
+        top: 40%;
         width:100%;
         text-align: right;
         ul {
@@ -29,18 +29,8 @@ body {
         }
     }
     video.background-video {
-        position: fixed;
-        top: 50%;
-        left: 50%;
         min-width: 100%;
         min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -100;
-        -ms-transform: translateX(-50%) translateY(-50%);
-        -moz-transform: translateX(-50%) translateY(-50%);
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
         background-size: cover;
     }
 }
