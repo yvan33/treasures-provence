@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import Navbar from './Navbar.jsx';
-import $ from "jquery";
-import 'fullpage.js/dist/jquery.fullPage.js';
+
 
 // App component - represents the whole app
 export default class App extends Component {
@@ -45,6 +44,3 @@ export default class App extends Component {
   }
 }
 
-$(document).ready(function() {
-  $('#fullpage').fullpage();
-});

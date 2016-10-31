@@ -10,24 +10,30 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    #logos-container {
-        position: absolute;
-        right: 2%;
-        top: 40%;
-        width:100%;
-        text-align: right;
-        ul {
-            list-style: none outside none;
-        }
-        #logo-accomp {
-            width: 10%;
-            min-width: 88px;
-        }
-        #logo-snam {
-            width: 10%;
-            min-width: 88px;
+    #fullpage {
+        .section {
+            position: relative;
+            #logos-container {
+                position: absolute;
+                right: 4%;
+                bottom: 2%;
+                width: 100%;
+                text-align: right;
+                ul {
+                    list-style: none outside none;
+                }
+                #logo-accomp {
+                    width: 10%;
+                    min-width: 88px;
+                }
+                #logo-snam {
+                    width: 10%;
+                    min-width: 88px;
+                }
+            }
         }
     }
+
     video.background-video {
         min-width: 100%;
         min-height: 100%;
